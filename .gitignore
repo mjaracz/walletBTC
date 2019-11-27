@@ -1,0 +1,19 @@
+# node_modules
+/api/node_modules/
+/worker/node_modules/
+
+# env file 
+/api/.env
+/worker/.env
+
+/api/yarn.lock
+/worker/yarn.lock
+
+# webstorm IDE configurations
+.idea/
+
+#package-lock.json
+/api/package-lock.json
+/worker/package-lock.json
+package-lock.json
+yarn.lock

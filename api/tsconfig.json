@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es2015",
+      "es6",
+      "es2018",
+      "dom"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
