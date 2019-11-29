@@ -1,6 +1,5 @@
-import connection from './rabbitMQ/connect';
-import receiver from './receiver';
-import sender from './sender';
+import connection from './connect';
+import receiver from '../receiver';
 
 connection.on('connect', () =>
 	console.log('[AMQP] rabbitMQ is connect')
@@ -29,7 +28,6 @@ const channelWrapper = connection.createChannel({
 channelWrapper
 	.waitForConnect()
 	.then(() => {
-		sender().catch(err => console.log(err.message));
 		console.log('[AMGP] Sender send data to queue');
 		console.log('[AMQP] Receiver listen on the messages')
 	})

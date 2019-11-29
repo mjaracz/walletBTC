@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b89de3c1-ba6c-44c3-bd02-23ca086036ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/src/rabbitMQ/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/services/wallet.services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/src/mySQL/config.mysql.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/rabbitMQ/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/rabbitMQ/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/routes/wallet.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/routes/wallet.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/worker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/rabbitMQ/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/postgreSQL/postgresql.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/receiver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/receiver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/sender.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/sender.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1U74zkQLtzcwgUBj2iAJzeiz3bO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/worker" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worker/src/rabbitMQ" />
+      <recent name="$PROJECT_DIR$/worker/src/mySQL" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b89de3c1-ba6c-44c3-bd02-23ca086036ab" name="Default Changelist" comment="" />
+      <created>1574694563389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574694563389</updated>
+      <workItem from="1574694564636" duration="844000" />
+      <workItem from="1574818130754" duration="1540000" />
+      <workItem from="1574819690703" duration="19175000" />
+      <workItem from="1574881772905" duration="18411000" />
+      <workItem from="1575030869530" duration="2295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf3f4a38-d5b7-4daf-a034-8114bda339b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/node.js_portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rabbitMQ/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/wallet.services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.idea/worker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/src/mySQL/config.mysql.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/src/services/getReq.services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../worker/src/services/postReq.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rabbitMQ/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbitMQ/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/wallet.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/wallet.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/.gitignor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/src/rabbitMQ/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/src/postgreSQL/postgresql.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/src/receiver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/src/receiver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/src/sender.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/src/types.d.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1U76hsq0yGTTFKSTvz9D3XRoDYa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf3f4a38-d5b7-4daf-a034-8114bda339b4" name="Default Changelist" comment="" />
+      <created>1574695408877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574695408877</updated>
+      <workItem from="1574695410136" duration="6816000" />
+      <workItem from="1574730022277" duration="111000" />
+      <workItem from="1574730149061" duration="30000" />
+      <workItem from="1574730198368" duration="4834000" />
+      <workItem from="1574796334414" duration="8953000" />
+      <workItem from="1574807333456" duration="36000" />
+      <workItem from="1574807388163" duration="6858000" />
+      <workItem from="1575034059928" duration="2804000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

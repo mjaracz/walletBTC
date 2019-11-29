@@ -1,20 +1,23 @@
 import {Router} from 'express';
-import {
-	onListenerQueue,
-	publishMessage
-} from '../rabbitMQ';
+import {addWalletServices, walletServices} from '../services/wallet.services';
 
 const route = Router();
 
-route.get('/wallet', (req, res) => {
-	onListenerQueue()
-		.then(message => res.send(message))
+route.get('/wallet', async (req, res) => {
+	console.log(req.params.valueOf());
+	walletServices()
+		.then(msgFromRabbit => {
+			res.send(msgFromRabbit)
+		})
+		.catch(err => res.status(404).statusMessage = err.message)
 });
 
 route.post('/addToWallet',  (req, res) => {
-	const {body} = req;
-	publishMessage('post.json.btc', body);
-	res.send(body)
+	addWalletServices()
+		.then(msgFromRabbit => {
+			res.send(msgFromRabbit)
+		})
+		.catch(err => res.status(404).statusMessage = err.message)
 });
 
 export default route;
