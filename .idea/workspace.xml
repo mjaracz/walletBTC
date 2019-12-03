@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89de3c1-ba6c-44c3-bd02-23ca086036ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/rabbitMQ/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/services/wallet.services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/mySQL/config.mysql.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/rabbitMQ/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/rabbitMQ/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/routes/wallet.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/routes/wallet.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/services/wallet.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/services/wallet.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/worker/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/worker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/worker/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/rabbitMQ/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/postgreSQL/postgresql.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/mySQL/config.mysql.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/mySQL/config.mysql.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/rabbitMQ/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/rabbitMQ/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worker/src/receiver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/receiver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/sender.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/sender.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/services/getReq.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/services/getReq.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/src/services/postReq.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/services/postReq.services.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/worker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,6 +89,7 @@
       <workItem from="1574819690703" duration="19175000" />
       <workItem from="1574881772905" duration="18411000" />
       <workItem from="1575030869530" duration="2295000" />
+      <workItem from="1575361989324" duration="7034000" />
     </task>
     <servers />
   </component>

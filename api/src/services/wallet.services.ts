@@ -13,7 +13,7 @@ export const walletServices = () => new Promise(async (resolve, reject) => {
 			reject(err);
 			console.warn(err.message);
 		})
-		.finally(() => msgWasPublish = true);
+		.finally(() => {msgWasPublish = true; console.log(msgWasPublish)});
 	
 	await (msgWasPublish)
 		? onListenerQueue()
@@ -28,17 +28,12 @@ export const walletServices = () => new Promise(async (resolve, reject) => {
 		: null
 });
 
-export const addWalletServices = () => new Promise( async (resolve, reject) => {
+export const addWalletServices = (body) => new Promise( async (resolve, reject) => {
+	const data = {rows: body};
 	await publishMessage()
 		.then((channel: channelPublish) => {
-			channel.publish('btc_exchange', 'post.json.btc', {postReq: true})
-		});
-	
-	await onListenerQueue()
-		.then((msg: msg) => {
-			const msgContent = JSON.parse(Buffer.from(msg.content).toString());
-			if(msg.fields.routingKey === 'post.json.btc' && msgContent.postReq) resolve(msgContent)
-			
+			channel.publish('btc_exchange', 'post.json.btc', data)
 		})
-		.catch(err => reject(err))
+		.catch(err => reject(err.message))
+		.finally(() => resolve(data))
 });

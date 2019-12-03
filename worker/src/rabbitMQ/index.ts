@@ -5,7 +5,7 @@ connection.on('connect', () =>
 	console.log('[AMQP] rabbitMQ is connect')
 );
 connection.on('disconnect', (err) =>
-	console.log('[AMQP] rabbitMQ is disconnect, err ' + err.message)
+	console.log('[AMQP] rabbitMQ is disconnect, err ' + err)
 );
 
 const channelWrapper = connection.createChannel({
@@ -14,8 +14,9 @@ const channelWrapper = connection.createChannel({
 		try {
 			await channel.prefetch(1);
 			await channel.assertExchange('btc_exchange', 'topic');
-			await channel.assertQueue('btc', {exclusive: true, autoDelete: false});
+			await channel.assertQueue('btc', {autoDelete: false, autoAck: false});
 			await channel.bindQueue('btc', 'btc_exchange', 'post.json.btc');
+			await channel.bindQueue('btc', 'btc_exchange', 'get.json.btc');
 			await channel.consume('btc', receiver);
 		}
 		catch(e) {
@@ -23,18 +24,5 @@ const channelWrapper = connection.createChannel({
 		}
 	}
 });
-
-
-channelWrapper
-	.waitForConnect()
-	.then(() => {
-		console.log('[AMGP] Sender send data to queue');
-		console.log('[AMQP] Receiver listen on the messages')
-	})
-	.catch(err => {
-		console.warn(err.message);
-		channelWrapper.close();
-		connection.close();
-	});
 
 export default channelWrapper;

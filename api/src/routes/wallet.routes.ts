@@ -4,7 +4,6 @@ import {addWalletServices, walletServices} from '../services/wallet.services';
 const route = Router();
 
 route.get('/wallet', async (req, res) => {
-	console.log(req.params.valueOf());
 	walletServices()
 		.then(msgFromRabbit => {
 			res.send(msgFromRabbit)
@@ -13,7 +12,7 @@ route.get('/wallet', async (req, res) => {
 });
 
 route.post('/addToWallet',  (req, res) => {
-	addWalletServices()
+	addWalletServices(req.body)
 		.then(msgFromRabbit => {
 			res.send(msgFromRabbit)
 		})

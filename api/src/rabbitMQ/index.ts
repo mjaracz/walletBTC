@@ -4,7 +4,7 @@ connection.on('connect', () =>
 	console.log('[AMQP] rabbitMQ is connect')
 );
 connection.on('disconnect', (err) =>
-	console.log('[AMQP] rabbitMQ is disconnect, err ' + err.message)
+	console.log('[AMQP] rabbitMQ is disconnect, err ' + err)
 );
 
 const onListenerQueue = () => new Promise((resolve, reject) => {
@@ -14,7 +14,7 @@ const onListenerQueue = () => new Promise((resolve, reject) => {
 			try {
 				await channel.prefetch(1);
 				await channel.assertExchange('btc_exchange', 'topic');
-				await channel.assertQueue('btc', {exclusive: true, autoDelete: false});
+				await channel.assertQueue('btc', {autoDelete: false, autoAck: false});
 				await channel.bindQueue('btc', 'btc_exchange', 'get.json.btc');
 				await channel.bindQueue('btc', 'btc_exchange', 'post.json.btc');
 				await channel.consume('btc', msg => resolve(msg));

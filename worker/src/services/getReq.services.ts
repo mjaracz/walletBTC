@@ -1,9 +1,7 @@
-import {pool} from '../mySQL/config.mysql';
-import channelWrapper from '../rabbitMQ';
+import {mysqlPool} from '../mySQL/config.mysql';
+import {Pool} from 'mysql';
 
 export async function senderGetReq() {
-	await pool()
-		.query('SELECT * from tracking_btc')
-		.then(async res => await channelWrapper.publish('btc_exchange', 'get.json.btc', res.rows))
-		.catch(err => console.log(err.message));
+	await mysqlPool()
+		.then((pool: Pool) => pool.query('select * from tracking_btc'))
 }

@@ -23,8 +23,8 @@ app.use((req, res, next) => {
 
 app.use('/api', wallet);
 app.use((req, res) => {
-  res.send(JSON.stringify({'message': 'route not handler'}));
   res.status(404);
+  res.send(JSON.stringify({'message': 'route not handler'}));
 });
 
 app.listen(port, () => {

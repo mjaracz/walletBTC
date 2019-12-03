@@ -1,9 +1,9 @@
-import {pool} from '../mySQL/config.mysql';
-import channelWrapper from '../rabbitMQ';
+import {mysqlPool} from '../mySQL/config.mysql';
+import {Pool} from 'mysql';
 
-export async function senderPostReq() {
-	await pool()
-		.query('SELECT * from tracking_btc')
-		.then(async res => await channelWrapper.publish('btc_exchange', 'post.json.btc', res.rows))
-		.catch(err => console.log(err.message));
+export async function senderPostReq(msgContent) {
+	mysqlPool()
+		.then((pool: Pool) => pool.query(`insert into tracking_btc (btc) values ?`, [msgContent.rows]))
+		.then(res => console.log(res))
+		.catch(err => console.log(`[mySQL] query error ${err.message}`))
 }
