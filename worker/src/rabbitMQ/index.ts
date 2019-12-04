@@ -1,28 +1,30 @@
-import connection from './connect';
-import receiver from '../receiver';
+import {channelConnection} from './channel';
+import {Channel} from 'amqplib/callback_api';
+import {amqp_url} from './constans';
 
-connection.on('connect', () =>
-	console.log('[AMQP] rabbitMQ is connect')
-);
-connection.on('disconnect', (err) =>
-	console.log('[AMQP] rabbitMQ is disconnect, err ' + err)
-);
+export const publishToQueue = async (routingKey: string, data: Buffer) => await channelConnection(amqp_url)
+	.then(async (channel: Channel) => {
+		await channel.bindQueue('wallet', 'btc.topic', '');
+		await channel.assertExchange('btc.topic', 'topic');
+		await channel.publish('btc.topic', routingKey, data)
+	})
+	.catch(err => console.warn(err));
 
-const channelWrapper = connection.createChannel({
-	json: true,
-	setup: async channel => {
-		try {
-			await channel.prefetch(1);
-			await channel.assertExchange('btc_exchange', 'topic');
-			await channel.assertQueue('btc', {autoDelete: false, autoAck: false});
-			await channel.bindQueue('btc', 'btc_exchange', 'post.json.btc');
-			await channel.bindQueue('btc', 'btc_exchange', 'get.json.btc');
-			await channel.consume('btc', receiver);
-		}
-		catch(e) {
-			console.warn(`[AMQP] channel error: ${e.message}`)
-		}
-	}
+export const consumeQueue = async () => await new Promise((resolve, rejects) => {
+	channelConnection(amqp_url)
+		.then(async (channel: Channel) => {
+			await channel.assertQueue('wallet');
+			await channel.consume('wallet', (msg) => resolve(msg));
+		})
+		.finally(() => console.log('channel works'))
+		.catch(err => {
+			rejects(err);
+		})
+	
 });
 
-export default channelWrapper;
+process.on('exit', (close: any) => {
+	channelConnection(amqp_url)
+		.then((channel: Channel) => channel.close)
+		.catch(err => console.warn(err.message));
+});

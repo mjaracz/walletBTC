@@ -1,38 +1,29 @@
-import {onListenerQueue, publishMessage} from '../rabbitMQ';
-import {channelPublish, msg, msgContent} from '../rabbitMQ/types';
-let msgWasPublish: boolean;
+import {consumeQueue, publishToQueue} from '../rabbitMQ';
+import {Message} from 'amqplib';
+import {Channel} from 'amqplib/callback_api';
+import {msgContent} from '../rabbitMQ/types';
 
 
 export const walletServices = () => new Promise(async (resolve, reject) => {
+	const data = {getReq: true};
+	await publishToQueue('get.json.btc', new Buffer(data.toString()));
 	
-	await publishMessage()
-		.then((channel: channelPublish) => {
-			channel.publish('btc_exchange', 'get.json.btc', {getReq: true})
+	await consumeQueue()
+		.then((msg: Message) => {
+			const msgContent: msgContent = JSON.parse(Buffer.from(msg.content).toString());
+			
+			(msg.fields.routingKey === 'get.json.btc' && msgContent.getReq)
+				? resolve(JSON.stringify(msgContent.btcArray))
+				: reject({message: 'resource not found'})
 		})
-		.catch(err => {
-			reject(err);
-			console.warn(err.message);
-		})
-		.finally(() => {msgWasPublish = true; console.log(msgWasPublish)});
-	
-	await (msgWasPublish)
-		? onListenerQueue()
-				.then((msg: msg) => {
-					const msgContent: msgContent = JSON.parse(Buffer.from(msg.content).toString());
-					
-					(msg.fields.routingKey === 'get.json.btc' && msgContent.getReq)
-						? resolve(JSON.stringify(msgContent.btcArray))
-						: reject({message: 'resource not found'})
-				})
-				.catch(err => reject(err))
-		: null
+		.catch(err => reject(err))
 });
 
 export const addWalletServices = (body) => new Promise( async (resolve, reject) => {
 	const data = {rows: body};
-	await publishMessage()
-		.then((channel: channelPublish) => {
-			channel.publish('btc_exchange', 'post.json.btc', data)
+	await consumeQueue()
+		.then((channel: Channel) => {
+			channel.publish('btc_exchange', 'post.json.btc', new Buffer(data.toString()))
 		})
 		.catch(err => reject(err.message))
 		.finally(() => resolve(data))

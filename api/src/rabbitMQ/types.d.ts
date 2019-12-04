@@ -1,18 +1,10 @@
-export interface msg {
-	fields: { routingKey: string };
-	content: BinaryType;
+export interface wallet {
+  id: number;
+  btc: string;
 }
 
 export type msgContent = {
-	getReq: boolean;
-	btcArray: wallet[];
-}
-
-export interface wallet {
-	id: number;
-	btc: string;
-}
-
-export interface channelPublish {
-	publish: (exchange: string, routingKey: string, data: object) => Promise<object>
+  getReq?: boolean;
+  postReq?: boolean;
+  btcArray: wallet[];
 }
