@@ -24,7 +24,7 @@ WORKDIR /opt/worker
 
 # install projects deps and bundled our project to js
 RUN yarn install
-RUN tsc -p src/
+RUN tsc -p src/ --outDir ./dist
 
 EXPOSE 8080
 

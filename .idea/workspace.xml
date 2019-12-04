@@ -3,28 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b89de3c1-ba6c-44c3-bd02-23ca086036ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/login/login.routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/login/login.routes.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/connect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/connect.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/deleteOne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/deleteOne.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findAll.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findById.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findById.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findUser.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/connect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/connect.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/sendMessageToQueue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/sendMessageToQueue.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/stories/stories.routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dist/stories/stories.routes.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worker.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/worker.Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +74,7 @@
       <workItem from="1574819690703" duration="19175000" />
       <workItem from="1574881772905" duration="18411000" />
       <workItem from="1575030869530" duration="2295000" />
-      <workItem from="1575361989324" duration="8820000" />
+      <workItem from="1575361989324" duration="9509000" />
     </task>
     <servers />
   </component>
