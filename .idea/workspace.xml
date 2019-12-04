@@ -2,24 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89de3c1-ba6c-44c3-bd02-23ca086036ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/worker.Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/rabbitMQ/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/rabbitMQ/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/routes/wallet.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/routes/wallet.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/services/wallet.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/services/wallet.services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/worker/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/worker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/worker/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/mySQL/config.mysql.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/mySQL/config.mysql.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/rabbitMQ/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/rabbitMQ/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/receiver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/receiver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/services/getReq.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/services/getReq.services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/src/services/postReq.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/worker/src/services/postReq.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/login/login.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/login/login.routes.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/connect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/connect.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/deleteOne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/deleteOne.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findAll.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findById.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findById.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/mongodb/findUser.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/connect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/connect.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/sendMessageToQueue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/rabbitMQ/sendMessageToQueue.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/stories/stories.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dist/stories/stories.routes.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/worker.Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src" />
       <recent name="$PROJECT_DIR$/worker/src/rabbitMQ" />
       <recent name="$PROJECT_DIR$/worker/src/mySQL" />
     </key>
@@ -89,12 +96,21 @@
       <workItem from="1574819690703" duration="19175000" />
       <workItem from="1574881772905" duration="18411000" />
       <workItem from="1575030869530" duration="2295000" />
-      <workItem from="1575361989324" duration="7034000" />
+      <workItem from="1575361989324" duration="8820000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/api/src/index.js" />
+        <option value="$PROJECT_DIR$/api/src/routes/wallet.routes.js" />
+        <option value="$PROJECT_DIR$/api/src/rabbitMQ/index.js" />
+        <option value="$PROJECT_DIR$/api/src/rabbitMQ/connect.js" />
+        <option value="$PROJECT_DIR$/api/src/services/wallet.services.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
