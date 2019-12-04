@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3f4a38-d5b7-4daf-a034-8114bda339b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/wallet.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/wallet.routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../worker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../worker/src/receiver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/src/receiver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../worker/src/services/postReq.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/src/services/postReq.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker/src/rabbitMQ/channel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../worker/src/rabbitMQ/channel.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../intersections" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -63,6 +61,7 @@
       <workItem from="1574807388163" duration="6858000" />
       <workItem from="1575034059928" duration="3353000" />
       <workItem from="1575279524457" duration="2009000" />
+      <workItem from="1575480400735" duration="446000" />
     </task>
     <servers />
   </component>

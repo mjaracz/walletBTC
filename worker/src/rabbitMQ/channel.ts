@@ -1,5 +1,5 @@
-import amqp, {Channel} from 'amqplib/callback_api';
-import {amqp_url} from './constans';
+import {Channel} from 'amqplib/callback_api';
+const amqp = require('amqplib/callback_api');
 require('dotenv').config();
 
 let cloudAMQP_url: string;

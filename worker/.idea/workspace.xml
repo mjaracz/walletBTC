@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb8cbab-7f35-48fe-8425-21f48e0cfc43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../api/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api/src/routes/wallet.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../api/src/routes/wallet.routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/receiver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/receiver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/postReq.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postReq.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rabbitMQ/channel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/rabbitMQ/channel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/getReq.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/getReq.services.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
@@ -63,6 +62,7 @@
       <workItem from="1574812666161" duration="5467000" />
       <workItem from="1575033167172" duration="4427000" />
       <workItem from="1575280885087" duration="1354000" />
+      <workItem from="1575480391788" duration="494000" />
     </task>
     <servers />
   </component>

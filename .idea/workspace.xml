@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b89de3c1-ba6c-44c3-bd02-23ca086036ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/src/rabbitMQ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/worker" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,7 +80,7 @@
       <workItem from="1574819690703" duration="19175000" />
       <workItem from="1574881772905" duration="18411000" />
       <workItem from="1575030869530" duration="2295000" />
-      <workItem from="1575361989324" duration="18615000" />
+      <workItem from="1575361989324" duration="18980000" />
     </task>
     <servers />
   </component>
